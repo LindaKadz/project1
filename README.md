@@ -2,7 +2,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-![Diagram of the Network](https://github.com/zwang21/Elk-Stack-Project/blob/main/Diagrams/Diagram_of_the_Network.png)
+![Diagram of the Network](https://github.com/LindaKadz/project1/blob/master/Diagrams/Network.png)
 (Images/Network.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the playbook file may be used to install only certain pieces of it, such as Filebeat.
@@ -281,13 +281,13 @@ A summary of the access policies in place can be found in the table below.
 
 | Name     | Publicly Accessible |Allowed IP Addresses|
 |:---------|:--------------------|:------------------:|
-| Jump Box | Yes (SSH p22)       | 76.209.224.121     |
-| Jump Box | Yes (RDP p3389)     | 76.209.224.121     |
-| Web-1    | Yes (HTTP p80)      | 76.209.224.121     |
-| Web-2    | Yes (HTTP p80)      | 76.209.224.121     |
-| Web-3    | Yes (HTTP p80)      | 76.209.224.121     |
-|Elk server| Yes (HTTP p5601)    | 76.209.224.121     |
-|Elk Server| Yes (SSH p22)       | 76.209.224.121     |
+| Jump Box | Yes (SSH p:22)      | 76.209.224.121     |
+| Jump Box | Yes (RDP p:3389)    | 76.209.224.121     |
+| Web-1    | Yes (HTTP p:80)     | 76.209.224.121     |
+| Web-2    | Yes (HTTP p:80)     | 76.209.224.121     |
+| Web-3    | Yes (HTTP p:80)     | 76.209.224.121     |
+|Elk server| Yes (HTTP p:5601)   | 76.209.224.121     |
+|Elk Server| Yes (SSH p:22)      | 76.209.224.121     |
 
 ### Elk Configuration
 
@@ -310,8 +310,8 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![screenshot displays the result of running `docker ps`](https://github.com/zwang21/Elk-Stack-Project/blob/main/Diagrams/docker_ps_output.png)
-(Image/Screenshot of docker_ps_output.png)
+![screenshot displays the result of running `docker ps`](https://github.com/LindaKadz/project1/blob/master/Diagrams/docker_output.png)
+(Image/Screenshot of docker_output.png)
 
 ### Target Machines & Beats
 
